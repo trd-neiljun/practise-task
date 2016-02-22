@@ -1,0 +1,25 @@
+/* Practice Task - Responsive Cascading Stylesheet */
+/* ---- START TOP ---- */
+	#top {
+		background-size:contain;
+		height:auto;
+	}
+	#top .inner {
+		width:95%;
+	}
+
+	#top h1 {
+		text-align:center;
+		padding:0 0 8px 0;
+	}
+/* ---- END TOP ---- */
+
+/* ---- START MEDIA DEVICES min-width and max-width 1361 ---- */
+@media screen and (max-width:967){
+/* ---- START TOP  ---- */
+	#top {
+		background-size:200px 100%;
+	}
+/* ---- END TOP  ---- */
+}
+/* ---- END MEDIA DEVICES min-width and max-width 1361 ---- */
