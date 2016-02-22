@@ -1,5 +1,8 @@
 /* Practice Task - Responsive Cascading Stylesheet */
 /* ---- START BODY ---- */
+	body {
+		padding-bottom:80px;
+	}
 	.home {
 		width:100%;
 	}
@@ -7,7 +10,6 @@
 		float:left;
 		width:100%;
 	}
-	
 /* ---- END BODY ---- */
 
 /* ---- START TOP ---- */
@@ -24,6 +26,7 @@
 		padding:0 0 8px 0;
 	}
 /* ---- END TOP ---- */
+
 @media (min-width:968px) {
 	#bottom {
 		width:72%;
@@ -55,4 +58,56 @@
 		padding: 5px 0 3px 0;
 	}
 /* ---- END HEADER_ADVERT ---- */	
+/* ---- START MENU BAR ---- */
+	ul#gnv {
+		width:100% !important;
+	}
+	ul#gnv li {
+		display:inline-block;
+		width:50%;
+	}
+	ul#gnv li#g01_top {
+		width:100% !important;
+	}
+	ul#gnv li a {
+		width:100% !important;
+		padding-left:5px !important;		
+	}
+	
+	ul#gnv li#g08{
+		width:100%;
+	}
+	ul#gnv li#g02 a {
+		background:url("../images/gnv.png") no-repeat scroll -70px 0 transparent;
+		
+	}
+	ul#gnv li#g03 a {
+		background:url("../images/gnv.png") no-repeat scroll -70px 0 transparent;
+		
+	}
+	ul#gnv li#g04 a {
+		background:url("../images/gnv.png") no-repeat scroll -70px 0 transparent;
+		
+	}
+	ul#gnv li#g05 a {
+		background:url("../images/gnv.png") no-repeat scroll -70px 0 transparent;
+		
+	}
+	ul#gnv li#g06 a {
+		background:url("../images/gnv.png") no-repeat scroll -70px 0 transparent;
+		
+	}
+	ul#gnv li#g07 a {
+		background:url("../images/gnv.png") no-repeat scroll -70px 0 transparent;
+		
+	}
+	ul#gnv li#g08 a {
+		background:url("../images/gnv.png") no-repeat scroll -70px 0 transparent;
+		
+	}
+	ul#gnv li:hover {
+		background:#FC7B82;
+    	color: #FFFFFF !important;
+	}
 }
+/* ---- END MENU BAR ---- */
