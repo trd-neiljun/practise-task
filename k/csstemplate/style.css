@@ -1,0 +1,108 @@
+@charset "Shift_JIS";
+	/* 文字エンコードの設定（削除不可） */
+
+/* ***********************************************
+/* HTML要素（一部#ID） */
+*	{margin:0;
+	 padding:0;
+	 font:normal 12px/20px Verdana;
+	 letter-spacing:0.2em;}
+
+/* 基本構造 */
+body	{background-color:#ede5e4;}
+hr	{display:none;}
+
+/* 見出し */
+h1,h2,h3,h4,h5,h6	{font-style:normal;}
+h1	{position:absolute;
+	 margin-top:70px;
+	 padding:0 20px;
+	 font:bold 20px/20px Verdana;
+	 letter-spacing:0.5em;}
+h2	{margin-bottom:10px;}
+h3	{width:70%;
+	 margin-top:20px;
+	 padding-left:10px;
+	 border-bottom:1px solid #ad8681;}
+h4	{width:50%;
+	 margin-top:20px;
+	 padding-left:10px;
+	 font:normal 12px/20px Verdana;
+	 border:1px solid #ad8681;}
+/* 段落 */
+p	{margin:10px;}
+
+/* リンク */
+a	{text-decoration:none;}
+	a:link,a:visited{color:#ff9999;}
+	a:hover	{color:#33cc66;}
+
+/* 強調・追加・削除 */
+em	{font-style:normal;
+	 background-color:#fabfb7;}
+strong	{background-color:#fabfb7;
+	 font-weight:bold;}
+ins	{text-decoration:underline;}
+del	{text-decoration:line-through;}
+
+/* フォーム */
+input,textarea,select{margin:5px;border:1px solid #624e31;
+		      color:#624e31;
+		      font:normal 12px Verdana;
+	 	      letter-spacing:0.2em;}
+	input#CHECKBOX	{border:0;}
+	input#RADIO	{border:0;}
+	input#BUTTON    {padding:2px 5px;}
+option	{border:0;}
+optgroup	{font-style:normal;
+		 color:#ad8681;}
+
+/* リスト */
+ol,ul,dl	{margin-left:40px;}
+
+/* アドレス */
+address	{font-style:normal;}
+
+
+/* 物理要素（サンプルページ未記述） */
+b	{font-weight:bold;}
+i	{font-style:Italic;}
+big	{font-size:120%;}
+small	{font-size:80%;}
+tt	{font-family:monospace;}
+
+/* ***********************************************
+/* 各#ID＆.class */
+
+div#PAGETOP	{margin:40px auto;
+		 width:700px;}
+div#HEADER	{height:100px;
+		 background-image:url(img/header.gif);
+		 background-repeat:no-repeat;}
+	ul#PAN	{display:none;}
+div#MENU	{margin:0;
+		 text-align:right;
+		 background-color:#fabfb7;}
+div#HEADER ul#PAN,div#MENU h2,div#FOOTER h2{display:none;}
+div#MENU ul{margin:0px;
+	    list-style:none;
+	    border-bottom:2px solid #ad8681;}
+div#MENU ul li{display:inline;
+	       margin-right:20px;}
+div#MENU ul li a{color:#624e31;}
+div#MENU ul li a:hover{color:#ede5e4;}
+div#KIZI	{padding:20px;
+		 background-color:#fff;}
+	div.text	{margin:20px;}
+		ul.modori	{list-style:none;
+				 text-align:right;}
+		ul.modori a     {text-decoration:none;}
+		ul.modori a:hover{text-decoration:underline;}
+div#FOOTER	{margin:0 0 40px 0;
+		 text-align:right;
+		 background:#fff url(img/footer.gif) no-repeat bottom;}
+#FOOTER ul{margin:0;
+	   padding:10px 20px;
+	   list-style:none;}
+	li#FOOTER01	{display:none;}
+	li#FOOTER02	{display:none;}

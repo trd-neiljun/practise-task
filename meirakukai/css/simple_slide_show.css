@@ -1,0 +1,14 @@
+<!--
+.simpleSlideShow img {
+display : none;
+}
+.simpleSlideShowWrapper {
+margin : 0 auto;
+position : relative;
+}
+.simpleSlideShowWrapper img {
+position : absolute;
+left : 0;
+top : 0;
+}
+-->
