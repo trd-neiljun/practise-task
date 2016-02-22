@@ -27,12 +27,12 @@
 	}
 /* ---- END TOP ---- */
 
-@media (min-width:968px) {
+@media (min-width:769px) {
 	#bottom {
 		width:72%;
 	}
 }
-@media (max-width:967px){
+@media (max-width:768px){
 /* ---- START TOP  ---- */
 	#top {
 		background-size:200px 100%;
@@ -59,15 +59,36 @@
 	}
 /* ---- END HEADER_ADVERT ---- */	
 /* ---- START MENU BAR ---- */
+	#g01_top {
+		display:block !important;
+	}
+	#gnv ul li {
+		display:none !important;
+	}
+	#g01_top:after{
+		content:"";
+		display:block;
+		background:url('../images/sp/menu-img.png') no-repeat;
+		width:40px;
+		height:40px;
+		float:right;
+		margin-top:20px;
+	} 
 	ul#gnv {
 		width:100% !important;
 	}
 	ul#gnv li {
-		display:inline-block;
+		display:none;
 		width:50%;
 	}
 	ul#gnv li#g01_top {
 		width:100% !important;
+		background:#FC7B82;
+		padding-left:5px;
+	}
+	ul#gnv li#g01_top a {
+		width: 72px !important;
+		float:left;
 	}
 	ul#gnv li a {
 		width:100% !important;
