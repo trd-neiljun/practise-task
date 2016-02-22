@@ -51,6 +51,8 @@
 	}
 	.advt_single img{
 		margin:auto;
+		display:block;
+		padding: 5px 0 3px 0;
 	}
 /* ---- END HEADER_ADVERT ---- */	
 }
