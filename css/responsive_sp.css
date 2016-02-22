@@ -1,4 +1,15 @@
 /* Practice Task - Responsive Cascading Stylesheet */
+/* ---- START BODY ---- */
+	.home {
+		width:100%;
+	}
+	#logo a img {
+		float:left;
+		width:100%;
+	}
+	
+/* ---- END BODY ---- */
+
 /* ---- START TOP ---- */
 	#top {
 		background-size:contain;
@@ -13,13 +24,33 @@
 		padding:0 0 8px 0;
 	}
 /* ---- END TOP ---- */
-
-/* ---- START MEDIA DEVICES min-width and max-width 1361 ---- */
-@media screen and (max-width:967){
+@media (min-width:968px) {
+	#bottom {
+		width:72%;
+	}
+}
+@media (max-width:967px){
 /* ---- START TOP  ---- */
 	#top {
 		background-size:200px 100%;
 	}
+	#bottom {
+		width:95%;
+	}
+	
 /* ---- END TOP  ---- */
+
+/* ---- START HEADER_ADVERT ---- */
+	#header_advert{
+		background:white;
+		position:fixed;
+		bottom:0px;
+		z-index:1;
+		width:100%;
+		left:0px;
+	}
+	.advt_single img{
+		margin:auto;
+	}
+/* ---- END HEADER_ADVERT ---- */	
 }
-/* ---- END MEDIA DEVICES min-width and max-width 1361 ---- */
