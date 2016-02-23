@@ -18,12 +18,12 @@
 		height:auto;
 	}
 	#top .inner {
-		width:95%;
+		width:92%;
 	}
 
 	#top h1 {
 		text-align:center;
-		padding:0 0 8px 0;
+		padding:0 0 10px 0;
 	}
 /* ---- END TOP ---- */
 
@@ -33,7 +33,7 @@
 		background-size:200px 100%;
 	}
 	#bottom {
-		width:95%;
+		width:100%;
 	}
 	
 /* ---- END TOP  ---- */
@@ -55,7 +55,8 @@
 /* ---- END HEADER_ADVERT ---- */	
 /* ---- START LOGO ---- */
 	#logo {
-		width:100%;
+		width:90%;
+		padding: 4% 0 2% 5%;
 	}
 /* ---- END LOGO ---- */
 /* ---- START MENU BAR ---- */
@@ -130,38 +131,108 @@
 /* ---- END MENU BAR ---- */
 /* ---- START MAIN ---- */
 	#main {
-		width:97%;
+		width:90%;
+		padding:10px 0 0 0;
+		margin:auto;
 	}
 	#main #container {
 		float:none;
 		width:100%;
 	}
 	#main #container #content {
-		width:90%;
+		width:100%;
 		margin:auto;
 	}
 	#main #container #content .main_img {
 		width:100%;
 		border-radius:5px;
 		height:100%;
-		background-size:contain;
+		background-size:100% 100%;
+		padding-bottom:50%;
+		margin: 0 0 10px 0;
 	}
 	.simpleSlideShowWrapper {
 		width:100% !important;
 		height:auto !important;
-		padding-bottom:24%
 	}
 	.simpleSlideShowWrapper img {
-		width:95% !important;
-		margin:3% 0 0 2.3%;
+		width:90% !important;
+		margin:5%;
 	}
 /* ---- END MAIN ---- */
-
+/* ---- START TITLE BAR ----*/
+	.title_bar01 {
+		width:100%;
+		margin-bottom:10px;
+	}
+	.title_bar03 {
+		width: 100%;
+		margin:10px 0 10px;
+	}
+/* ---- END TITLE BAR ---- */
 /* ---- START SIDEBAR PRIMARY ---- */
 	#primary, #secondary {
 		float:none;
 		overflow:visible;
 	}
 /* ---- END SIDEBAR PRIMARY ---- */
-
+/* ---- START MC_WAKU ---- */
+	.mc_waku {
+		width:100% !important;
+	}
+/* ---- END MC_WAKU ---- */
+}
+@media (max-width:400px){
+	/* ---- START TITLE BAR ---- */
+		.title_bar02, .title_bar03 {
+			margin: 3px 0 10px;
+			
+		}
+	/* ---- END TITLE BAR ---- */
+	/* ---- START mc_waku ---- */
+		.mc_waku > div {
+			background-size:100%;
+			width:100% !important;
+			height:auto !important;
+			padding:0 0 10px 0 !important;
+		}
+		.mc_waku > .mc01 > .catch01, .mc_waku > .mc03 > .catch01,
+		.mc_waku > .mc05 > .catch01, .mc_waku > .mc06 > .catch01,
+		.mc_waku > .mc11 > .catch01 {
+			padding-bottom:70%;
+		}
+		.mc_waku > .mc02 > .catch01 {
+			padding-bottom:54%;
+		}
+		.mc_waku > .mc04 > .catch01 {
+			padding-bottom:58%;
+		}
+		.mc_waku > .mc07 > .catch01, .mc_waku > .mc08 > .catch01 {
+			padding-bottom:77%;
+		}
+		.mc_waku > .mc09 > .catch01,.mc_waku > .mc10 > .catch01,
+		.mc_waku > .mc12 > .catch01  {
+			padding-bottom:64%;
+		}
+		.catch01 {
+			width:100% !important;
+			height:auto !important;
+		}
+		
+		.catch02 {
+			font-size:20px;
+			width:100% !important;
+			height:auto !important;
+		}
+		.catch03 {
+			font-size:15px;
+			width:100% !important;
+			padding-bottom:10px;
+			height:auto !important;
+		}
+		.space {
+			display:none !important;
+		}
+	/* ---- END mc_waku ---- */
+	
 }
