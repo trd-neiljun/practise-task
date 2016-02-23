@@ -91,5 +91,16 @@
         width: 100% !important;
     }
 
+
+    #container {
+        float: none;
+    }
+
+    #content {
+        width: 90%;
+        margin: auto;
+    }
+
     /** END HEADER **/
 }
+
