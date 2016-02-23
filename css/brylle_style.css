@@ -219,6 +219,17 @@
         margin: 0 !important;
         text-align: center;
     }
+
+    .footer-wrapper-2 .footer-2{
+        width: 100%;
+        margin: auto;
+        padding: 10px 0;
+    }
+
+    .footer-wrapper-2 .footer-2 .left, .footer-wrapper-2 .footer-2 .right {
+        float: none;
+        text-align: center;
+    }
     /** END FOOTER **/
 }
 
