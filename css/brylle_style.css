@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+    /** START HEADER **/
+    #top {
+        height: auto;
+        padding-top: 0;
+        background-size: auto 100%;
+    }
+
+    #top .inner {
+        padding: 10px 0;
+        width: 90%;
+    }
+
+    /** END HEADER **/
+}
