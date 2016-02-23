@@ -50,5 +50,29 @@
         margin-top:20px;
     }
 
+    ul#gnv, ul#gnv li#g08 {
+        width:100% !important;
+    }
+    ul#gnv li {
+        display:none;
+        width:50%;
+    }
+    ul#gnv li#g01_top {
+        width:100% !important;
+        background:#FC7B82;
+        padding-left:5px;
+        display: block !important;
+    }
+    ul#gnv li#g01_top a {
+        width: 72px !important;
+        float:left;
+        background-position: 0 -60px !important;
+    }
+    ul#gnv li a {
+        width:100% !important;
+        padding-left:5px !important;
+        background:url("../images/gnv.png") no-repeat scroll -70px 0 transparent !important;
+    }
+
     /** END HEADER **/
 }
