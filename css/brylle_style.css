@@ -11,5 +11,19 @@
         width: 90%;
     }
 
+    #bottom {
+        width: 90%;
+    }
+
+    #logo {
+        float: none;
+        padding: 0;
+    }
+
+    #logo a img {
+        width: 100%;
+        padding-top: 15px;
+    }
+
     /** END HEADER **/
 }
