@@ -234,5 +234,15 @@
 			display:none !important;
 		}
 	/* ---- END mc_waku ---- */
+	/* ---- START TEXTWIDGET ---- */
+		.textwidget {
+			margin:auto;
+		}
+	/* ---- END TEXTWIDGET ---- */
+	/* ---- START PRIMARY ---- */
+		#primary {
+			width:100% !important;
+		}
+	/* ---- END PRIMARY ---- */
 	
 }
