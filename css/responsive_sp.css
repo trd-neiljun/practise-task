@@ -181,8 +181,6 @@
 		width:100% !important;
 	}
 /* ---- END MC_WAKU ---- */
-}
-@media (max-width:400px){
 	/* ---- START TITLE BAR ---- */
 		.title_bar02, .title_bar03 {
 			margin: 3px 0 10px;
@@ -278,5 +276,43 @@
 		}
 		
 	/* ---- END PRIMARY ---- */
+	/* ---- START FOOTER ---- */
+		#footer {
+			height:auto;
+			padding:14px 5% 10px;
+			background-size:auto 100%;
+			text-align:justify;
+			margin:0;
+		}
+		
+		#footer, .footer-wrapper-2 .footer-2{
+			width:90%
+		}
+		#footer-inner {
+			width:100%;
+		}
+		#footer-inner a {
+			text-align:center;
+			width:26%;
+			display:inline-block;
+			margin:0 !important;
+		}
+		.footer-wrapper-2 .footer-2 {
+			display:-webkit-box;
+			padding:10px 0;
+			-webkit-box-orient:vertical;
+			text-align:center;
+			padding-bottom:90px;
+		}
+		.footer-wrapper-2 .footer-2 .left {
+			-webkit-box-ordinal-group : 2;
+			float:none;
+		}
+		.footer-wrapper-2 .footer-2 .right {
+			-webkit-box-ordinal-group : 1;
+			float:none;
+		}
+		
+	/* ---- END FOOTER ---- */
 	
 }
