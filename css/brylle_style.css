@@ -149,5 +149,21 @@
     }
 
     /** END INDEX **/
+
+
+    /** START SIDEBAR **/
+
+    #primary {
+        float: none;
+        margin: auto;
+        width: 90% !important;
+    }
+
+    .sb {
+        margin: auto;
+    }
+    /** END SIDEBAR **/
+
+
 }
 
