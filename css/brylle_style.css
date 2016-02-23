@@ -1,4 +1,9 @@
 @media (max-width: 768px) {
+
+    body {
+        padding-bottom: 93px;
+    }
+
     /** START HEADER **/
     #top {
         height: auto;
