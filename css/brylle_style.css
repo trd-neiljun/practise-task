@@ -74,5 +74,14 @@
         background:url("../images/gnv.png") no-repeat scroll -70px 0 transparent !important;
     }
 
+
+    ul#gnv li a:hover {
+        background:url("../images/gnv.png") no-repeat scroll -70px -60px transparent !important;
+    }
+
+    ul#gnv li:first-child:hover {
+        background: #fc7b82 !important;
+    }
+
     /** END HEADER **/
 }
