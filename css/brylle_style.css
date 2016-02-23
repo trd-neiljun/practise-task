@@ -101,6 +101,23 @@
         margin: auto;
     }
 
-    /** END HEADER **/
+
+    .main_img {
+        width: 100%;
+        height: auto;
+    }
+
+    .simpleSlideShowWrapper {
+        padding-bottom: 23.5%;
+        height: auto !important;
+        width: 100% !important;
+    }
+
+    .simpleSlideShowWrapper img {
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    /** END INDEX **/
 }
 
