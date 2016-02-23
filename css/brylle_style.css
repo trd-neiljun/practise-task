@@ -118,6 +118,10 @@
         width: 90%;
     }
 
+    .title_bar01, .title_bar02, .title_bar03 {
+        width: 100%;
+    }
+
     /** END INDEX **/
 }
 
