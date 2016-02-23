@@ -122,6 +122,20 @@
         width: 100%;
     }
 
+    .mc_waku {
+        width: 100%;
+        text-align: center;
+    }
+
+    .mc_waku > div {
+        width: 31%;
+        float: none;
+        display: inline-block;
+        margin-right: 1%;
+        margin-bottom: 10px;
+        vertical-align: top;
+    }
+
     /** END INDEX **/
 }
 
