@@ -146,8 +146,13 @@
     }
 
     .catch03 {
-        font-size: 10px;
+        font-size: 9px;
     }
+
+    .catch01, .catch02, .catch03 {
+        width: 100% !important;
+    }
+
 
     .space {
         display: none !important;
