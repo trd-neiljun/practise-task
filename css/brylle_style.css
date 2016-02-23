@@ -61,6 +61,7 @@
     ul#gnv li {
         display:none;
         width:50%;
+        list-style: none;
     }
     ul#gnv li#g01_top {
         width:100% !important;
