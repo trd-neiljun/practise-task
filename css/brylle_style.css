@@ -40,5 +40,15 @@
         padding: 5px 0 3px 0;
     }
 
+    #g01_top:after{
+        content:"";
+        display:block;
+        background:url('../images/sp/menu-img.png') no-repeat;
+        width:40px;
+        height:40px;
+        float:right;
+        margin-top:20px;
+    }
+
     /** END HEADER **/
 }
