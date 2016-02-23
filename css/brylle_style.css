@@ -84,4 +84,12 @@
     }
 
     /** END HEADER **/
+
+
+    /** START INDEX **/
+    #access .menu-header, div.menu, #colophon, #branding, #main, #wrapper {
+        width: 100% !important;
+    }
+
+    /** END HEADER **/
 }
