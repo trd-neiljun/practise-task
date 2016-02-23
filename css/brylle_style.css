@@ -162,6 +162,24 @@
     .sb {
         margin: auto;
     }
+
+    .block-1 {
+        width: 100%;
+    }
+
+    .block-1 h2 {
+        width: 100%;
+        background-size: 100% 100%;
+    }
+
+    .block-1 h2 img {
+        margin-left: 1%;
+    }
+
+    .block-1 .block-1-content {
+        width: 100%;
+        background-size: 100% 100%;
+    }
     /** END SIDEBAR **/
 
 
