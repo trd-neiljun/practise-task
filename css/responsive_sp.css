@@ -239,10 +239,44 @@
 			margin:auto;
 		}
 	/* ---- END TEXTWIDGET ---- */
-	/* ---- START PRIMARY ---- */
-		#primary {
+	/* ---- START SIDEBAR ---- */
+		#primary , .sb{
 			width:100% !important;
 		}
+		.xoxo {
+			padding:0 !important;
+		}
+		#banner_area, .sb {
+			margin:auto;
+		}
+		.sb {
+			text-align:center;
+		}
+		.widget-container {
+			margin:4px 0 -10px 0;
+		}
+		#text-4 , #text-3 {
+			margin:15px 0 0 0;
+		}
+		.block-1 .block-1-content {
+			background-size:100% 100%;
+		}
+		.block-1 {
+			margin:0;
+			width:100%
+		}
+		.block-1 h2 {
+			width:100%;
+			padding:4px;
+			background-size:100% 100%;
+		}
+		.latest-article-last {
+			background:url("../images/line-h-dashed-2.png") repeat-x scroll left bottom transparent !important;
+		}
+		.sideSubInfo {
+			width:85%;
+		}
+		
 	/* ---- END PRIMARY ---- */
 	
 }
