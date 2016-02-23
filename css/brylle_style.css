@@ -25,5 +25,20 @@
         padding-top: 15px;
     }
 
+    #header_advert{
+        background:white;
+        position:fixed;
+        bottom:0px;
+        z-index:1;
+        width:100%;
+        left:0px;
+        border-top; 3px double #a07011;
+    }
+    .advt_single img{
+        margin:auto;
+        display:block;
+        padding: 5px 0 3px 0;
+    }
+
     /** END HEADER **/
 }
