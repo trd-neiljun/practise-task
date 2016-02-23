@@ -201,5 +201,24 @@
     /** END SIDEBAR **/
 
 
+    /** START FOOTER **/
+    #footer {
+        padding: 0;
+        height: auto;
+        background-size: auto 100%;
+    }
+
+    #footer-inner {
+        width: 90%;
+        padding: 10px 0;
+    }
+
+    #footer-inner > a {
+        width: 21%;
+        display: inline-block;
+        margin: 0 !important;
+        text-align: center;
+    }
+    /** END FOOTER **/
 }
 
