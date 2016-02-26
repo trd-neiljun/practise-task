@@ -271,5 +271,14 @@
         margin-bottom: 20px;
     }
     /** END INDEX **/
+
+}
+
+@media (max-width: 459px) {
+    /** START FOOTER **/
+    #footer-inner > a {
+        width: 25%;
+    }
+    /** END FOOTER **/
 }
 
