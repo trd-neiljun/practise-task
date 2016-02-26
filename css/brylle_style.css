@@ -1,5 +1,4 @@
 @media (max-width: 768px) {
-
     body {
         padding-bottom: 93px;
     }
@@ -128,28 +127,38 @@
     }
 
     .mc_waku {
-        width: 100%;
+        width: 100% !important;
         text-align: center;
     }
 
     .mc_waku > div {
-        width: 31%;
-        float: none;
+        margin: 5px 1%;
         display: inline-block;
-        margin-right: 1%;
-        margin-bottom: 10px;
+        float: none;
+        width: 31%;
+        background-size: 100%;
+        position: relative;
+        height: auto;
         vertical-align: top;
     }
 
     .catch01 {
+        height: auto;
+        margin: 0;
+        position: absolute;
         font-size: 12px;
+        padding: 5% 5% 0;
+        width: 90%;
+    }
+
+    .catch02 {
+        margin: 68.5% 0 0;
+        width: 100%;
     }
 
     .catch03 {
-        font-size: 9px;
-    }
-
-    .catch01, .catch02, .catch03 {
+        /*font-size: 9px;*/
+        margin-bottom: 3%;
         width: 100% !important;
     }
 
@@ -235,6 +244,32 @@
         float: none;
         text-align: center;
     }
-    /** END FOOTER **/
+
+    /** ABOUT.html **/
+
+    /** START INDEX **/
+    .mcwt {
+        width: 100%;
+    }
+
+    .mcwm {
+        width: 100%;
+    }
+
+    .contentsInfo {
+        width: 90%;
+        margin: 10px 0 0px 25px;
+    }
+
+    .contentsInfo p[align='center'] > img {
+        width: 100%;
+        height: auto;
+    }
+
+    .mcwu {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    /** END INDEX **/
 }
 
